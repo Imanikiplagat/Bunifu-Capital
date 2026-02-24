@@ -3,20 +3,20 @@ import { Building2 } from "lucide-react";
 
 const platforms = [
   // Short-form & social
-  { name: "TikTok", logo: "https://logos-world.net/wp-content/uploads/2021/04/TikTok-Logo.png" },
-  { name: "Instagram", logo: "https://logos-world.net/wp-content/uploads/2017/04/Instagram-Logo.png" },
+  { name: "TikTok", logo: "https://images.seeklogo.com/logo-png/34/2/tiktok-logo-png_seeklogo-340606.png" },
+  { name: "Instagram", logo: "https://images.seeklogo.com/logo-png/43/2/instagram-new-2022-logo-png_seeklogo-438252.png" },
   { name: "YouTube", logo: "https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo.png" },
   { name: "Facebook", logo: "https://logos-world.net/wp-content/uploads/2020/04/Facebook-Logo.png" },
   { name: "Snapchat", logo: "https://logos-world.net/wp-content/uploads/2020/04/Snapchat-Logo.png" },
-  { name: "X", logo: "https://seeklogo.com/images/X/x-logo-twitter-new-brand-icon-png-11692489027utlfa0bqra.png" },
+  { name: "X", logo: "https://images.seeklogo.com/logo-png/49/2/twitter-new-logo-png_seeklogo-492388.png" },
   { name: "LinkedIn", logo: "https://logos-world.net/wp-content/uploads/2020/04/Linkedin-Logo.png" },
 
   // Music & audio
   { name: "Spotify", logo: "https://logos-world.net/wp-content/uploads/2020/09/Spotify-Logo.png" },
-  { name: "Apple Music", logo: "https://logos-world.net/wp-content/uploads/2020/09/Apple-Music-Logo.png" },
+  { name: "Apple Music", logo: "https://images.seeklogo.com/logo-png/46/2/apple-music-logo-png_seeklogo-461016.png" },
 
   // Marketplaces & creator platforms
-  { name: "Etsy", logo: "https://logos-world.net/wp-content/uploads/2021/02/Etsy-Logo.png" },
+  { name: "Etsy", logo: "https://images.seeklogo.com/logo-png/29/2/etsy-logo-png_seeklogo-296234.png" },
   { name: "Amazon", logo: "https://logos-world.net/wp-content/uploads/2020/04/Amazon-Logo.png" },
   { name: "Pinterest", logo: "https://logos-world.net/wp-content/uploads/2020/09/Pinterest-Logo.png" },
   { name: "Shopify", logo: "https://logos-world.net/wp-content/uploads/2020/11/Shopify-Logo.png" },
