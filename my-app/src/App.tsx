@@ -12,6 +12,7 @@ import NotFound from "@/pages/NotFound";
 import { Toaster } from "@/components/ui/toaster";
 import { CMSProvider } from "@/admin/context/CMSContext";
 import { AdminLayout } from "@/admin/AdminLayout";
+import { SignUpPage } from "@/admin/pages/SignUpPage";
 import { LoginPage } from "@/admin/pages/LoginPage";
 import { DashboardOverview } from "@/admin/pages/DashboardOverview";
 import { ArticlesPage } from "@/admin/pages/ArticlesPage";
@@ -31,6 +32,7 @@ import { LogoutPage } from "@/admin/pages/LogoutPage";
 import { PublicContentProvider } from "@/context/PublicContentContext";
 import { ProtectedRoute } from "@/components/ProtectedRoute";
 
+
 export default function App() {
   return (
     <>
@@ -46,6 +48,7 @@ export default function App() {
           <Route path="/careers" element={<CareersPage />} />
 
           <Route path="/admin/login" element={<LoginPage />} />
+          <Route path="/admin/signup" element={<SignUpPage />} />
           <Route path="/admin" element={<ProtectedRoute />}>
             <Route element={<CMSProvider><AdminLayout /></CMSProvider>}>
               <Route index element={<DashboardOverview />} />

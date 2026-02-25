@@ -9,6 +9,7 @@ export type ContactStatus = "New" | "Reviewed" | "Replied" | "Resolved";
 export type JobStatus = "Draft" | "Open" | "Closed";
 export type ApplicantStatus = "New" | "Shortlisted" | "Interview" | "Rejected" | "Accepted";
 export type TalentPoolTag = "Strong fit" | "Future fit" | "Not suitable" | null;
+export type User = {  id: number;  username: string;  email: string;};
 
 export interface Article {
   id: string;
